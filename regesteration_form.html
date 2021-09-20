@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+      <div class="mx-auto w-75 mt-5 p-5 shadow text-center">
+          <h1 class="title ">Smart Login system</h1>
+          <input type="text" class="form-control my-3 p-2" id ="signUpName" placeholder="Enter Your Name">
+
+          <input type="email" class="form-control my-3 p-2" id ="signUpUserName" placeholder="Enter Your Email">
+
+          <input type="password" class="form-control my-3 p-2" id ="signUpPassword" placeholder="Enter Your Password">
+          <p class="text-warning  d-none py-3 rounded" id="fullData">Enter A Valid Email (ex:xxxx@xxx.ddd...) Or Fill All Inputs </p>
+          <p class="text-danger d-none" id="existEmail">Email Already Exists</p>
+          <p class="text-success d-none" id="signUpsuccess">Success...Now You Can Togin To Home</p>
+          <button type="button" onclick="signUp()" class=" btn rounded py-2 w-100  mt-3">Sign UP</button>
+          
+          <p class="text-white mt-3">you have an account ?  <a class="text-decoration-none text-white " href="login_fom.html"> Login </a></p>
+      </div>  
+  </div>
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-color: #24353f;
+    
+}
+.title{
+   color: #17a2b8; 
+}
+.form-control{
+    background-color: transparent;
+    color:white !important;
+}
+.form-control:focus{
+    background-color: transparent;
+    border-color: #17a2b8;
+    box-shadow: unset;
+}
+.form-control::placeholder{
+    color: white;
+    opacity: .7;
+}
+button{
+    color: #17a2b8 !important;
+    background-color: transparent !important;
+    border-color: #17a2b8 !important;
+}
+button:hover{
+    color: white !important;
+    background-color: #17a2b8 !important;
+}
+button:focus{
+    box-shadow: unset !important;
+}
+a:hover{
+    text-decoration: underline !important;
+}
+.welcomeMassagee {
+    color: #17a2b8 !important;
+}
+.massage{
+    position: absolute;
+    top: 50% !important;
+    /* transform: translateX(-50%) !important; */
+    left: 25% !important;
+    transform: translateY(-50%) !important;
+}
